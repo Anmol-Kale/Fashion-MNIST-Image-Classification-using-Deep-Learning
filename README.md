@@ -1,0 +1,2 @@
+# Fashion-MNIST-Image-Classification-using-Deep-Learning
+The Fashion-MNIST clothing classification problem is a new standard dataset used in computer vision and deep learning. The ‘target’ dataset has 10 class labels, as we can see from above (0 – T-shirt/top, 1 – Trouser…9 – Ankle Boot). Given the images of the articles, we need to classify them into one of these classes, hence, it is essentially a ‘Multi-class Classification’ problem. A suitable algorithm is used to solve this dataset and help in the prediction and classification of the images.
