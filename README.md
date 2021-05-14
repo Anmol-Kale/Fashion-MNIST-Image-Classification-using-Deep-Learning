@@ -17,7 +17,10 @@ It is a dataset comprised of 60,000 small square 28×28 pixel grayscale images o
 
 # Models Used:
 
-	Convolution Neural Network is used to construct the model for classification of images. For the convolutional front-end, we can start with a Three convolutional layer with a small filter size and a modest number of filters (64) followed by a max pooling layer. The filter maps can then be flattened to provide features to the classifier.
-	Given that the problem is a multi-class classification, we know that we will require an output layer with 10 nodes in order to predict the probability distribution of an image belonging to each of the 10 classes. This will also require the use of a softmax activation function. Between the feature extractor and the output layer, we can add a dense layer to interpret the features, in this case with 128 nodes.
-	Keras library is used to assemble and plot the neural network work flow using sequential layers and kernel size of 3. All layers will use the ReLU activation function and the He weight initialization scheme, both best practices.
-	The model is compiled and then fit with 20 epochs and loss of sparse categorical cross entropy. After this, the model is put to test using the predict method following which the evaluation is done
+Convolution Neural Network is used to construct the model for classification of images. For the convolutional front-end, we can start with a Three convolutional layer with a small filter size and a modest number of filters (64) followed by a max pooling layer. The filter maps can then be flattened to provide features to the classifier.
+
+Given that the problem is a multi-class classification, we know that we will require an output layer with 10 nodes in order to predict the probability distribution of an image belonging to each of the 10 classes. This will also require the use of a softmax activation function. Between the feature extractor and the output layer, we can add a dense layer to interpret the features, in this case with 128 nodes.
+
+Keras library is used to assemble and plot the neural network work flow using sequential layers and kernel size of 3. All layers will use the ReLU activation function and the He weight initialization scheme, both best practices.
+
+The model is compiled and then fit with 20 epochs and loss of sparse categorical cross entropy. After this, the model is put to test using the predict method following which the evaluation is done
