@@ -15,7 +15,7 @@ It is a dataset comprised of 60,000 small square 28×28 pixel grayscale images o
 9: Ankle boot
 
 
-# Models Used:
+# Model Used:
 
 Convolution Neural Network is used to construct the model for classification of images. For the convolutional front-end, we can start with a Three convolutional layer with a small filter size and a modest number of filters (64) followed by a max pooling layer. The filter maps can then be flattened to provide features to the classifier.
 
